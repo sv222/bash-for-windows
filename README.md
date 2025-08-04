@@ -71,23 +71,6 @@ Based on the official [Nushell migration guide from Bash](https://www.nushell.sh
 - `home`, `desktop`, `downloads`, `documents` - Common locations
 - `root` - Drive root access
 
-## 📦 Installation
-
-1. **Install Nushell** (if not already installed):
-   ```powershell
-   winget install nushell
-   ```
-
-2. **Open Nushell config**:
-   ```bash
-   $env.config.buffer_editor = "C:/Windows/System32/notepad.exe"
-   config nu
-   ```
-
-3. **Copy content** from `nushell/config.nu` in this repository and paste it into the opened config file
-
-4. **Save and restart** Nushell
-
 ## 💡 Usage Examples
 
 ```bash
